@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    color: mediumpurple;
+    background-color: peachpuff;
+
+    font-family: monospace;
+}
+
+
+.red-span {
+    color: red;
+}
+
+.centered {
+    /*
+    margin-left: 50px;
+    margin-right: 50px;
+*/
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+*/
+
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container,
+header,
+main,
+footer {
+    display: flex;
+}
+
+@media screen and (max-width: 80rem) {
+
+    .container,
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
