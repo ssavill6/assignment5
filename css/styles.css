@@ -18,6 +18,17 @@ body {
     
 }
 
+a {
+    color: #fff;
+    transition: background-color .8s, color .8s;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:hover {
+    color: firebrick;
+}
+
 
 .red-span {
     color: red;
